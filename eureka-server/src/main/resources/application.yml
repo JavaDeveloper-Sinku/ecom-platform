@@ -1,16 +1,18 @@
 spring:
     application:
-    name: eureka server
+    name: eureka-server
 
 
 server:
-  port: 8761
+  port: 8761 #Default Eureka port
 
 
 eureka:
   client:
     register-with-eureka: false  # Server khud register nahi hoga
-    fetch-registry: false        # Server ko registry fetch nahi karna
+    fetch-registry: false  # Server ko registry fetch nahi karna
+
+
 
   instance:
     hostname: localhost
