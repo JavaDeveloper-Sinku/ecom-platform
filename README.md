@@ -299,7 +299,7 @@ spring:
 |-------|----------|
 | Service not registering on Eureka | Ensure Eureka Server is running on port 8761 |
 | API Gateway not routing requests | Check gateway configuration |
-| JWT token validation fails | Verify JWT secret is same across services |
+| JWT token validation fails | Verify JWT secret is the same across services |
 | Database connection error | Check MySQL is running |
 | Port already in use | Change port in application.properties |
 
@@ -307,7 +307,7 @@ spring:
 
 ## 📞 Contact
 
-**Sinku Singh**  
+** Sinku Singh **  
 Java Backend Developer | Spring Boot | Microservices
 
 - GitHub: [JavaDeveloper-Sinku](https://github.com/JavaDeveloper-Sinku)
